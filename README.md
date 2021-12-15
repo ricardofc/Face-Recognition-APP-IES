@@ -30,3 +30,19 @@
   `$ cd Face-Recognition-APP-IES && source bin/activate`  
   NOTE - Deactivate virtual environment: `(Face-Recognition-APP-IES) Face-Recognition-APP-IES$ deactivate`  
 3. Install requeriments:  
+  `$ pip3 install -r requeriments.txt`  
+
+## Database:
+1. Verify MySQL is started:  
+  `$ nc -vz localhost 3306`  
+
+2. Verify(create) access user with grants on MySQL:  
+  `$ mysql -uroot -p`  
+
+3. Create database:  
+  `$ cd create-database`  
+  `$ python3 Database.py #Modify parameters before executing. This parameters will be configured in gui.py for connectivity.`  
+  `$ python3 table.py #Modify parameters before executing.`     
+
+## Execute:  
+  `$ python3 gui.py`  
