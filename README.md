@@ -13,3 +13,20 @@
     * [MySQL](https://www.mysql.com): Database  
     * [PyMySQL](https://pypi.org/project/PyMySQL/): Connection by Python  
 5. Modify by [ricardofc](https://github.com/ricardofc/)
+
+## Optional: Procedure to customize GUI
+1. Create account figma  
+2. Duplicate GUI design: [APP-RolAdmin-IES](https://www.figma.com/community/file/1052732489281648788)  
+3. Modificate GUI  
+4. Convert figma design to tkinter code by [Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer/blob/master/docs/instructions.md#Using-Tkinter-Designer)  
+5. Download code gui.py, by example to /tmp/coding  
+6. Download made in the folder /tmp/coding/build/  
+7. Coding /tmp/coding/build/gui.py (In this app Face-Recognition-APP-IES/gui.py)
+
+## Coding gui.py
+1. Create python virtual environment:  
+  `$ python3 -m venv Face-Recognition-APP-IES`  
+2. Activate virtual environment:  
+  `$ cd Face-Recognition-APP-IES && source bin/activate`  
+  NOTE - Deactivate virtual environment: `(Face-Recognition-APP-IES) Face-Recognition-APP-IES$ deactivate`  
+3. Install requeriments:  
