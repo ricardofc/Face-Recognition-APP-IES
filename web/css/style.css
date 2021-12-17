@@ -1,0 +1,16 @@
+.bdashed{border:1px dashed #434343;padding:10px 10px 0 10px;}
+.bdhr{border: 1px dashed red;}
+h2,.tcenter{text-align: center}
+.fright{float:right;}
+.cboth{clear:both;}
+.fleft{float:left;}
+.mtop{margin-top:20px;}
+.mleft80{margin-left:80px;}
+.font2{color:#008080;font-size:12px;}
+.font3{color:#008080;font-size:14px;}
+.font4{color:#008080;font-size:16px;}
+.form-control{width:auto;margin-bottom:20px;}
+.cblack{color:black;}
+button[type=submit]{display:block;margin-bottom:4px;padding:5px 10px 5px 10px;background-color:#1f1d90;color:white;-webkit-border-radius:5px;border-radius:5px;}
+button[type=submit]:hover{background-color:#1f901d;}
+h4{margin-bottom:0;background-color:cyan;}
