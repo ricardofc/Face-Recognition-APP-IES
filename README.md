@@ -44,5 +44,10 @@
   `$ python3 Database.py #Modify parameters before executing. This parameters will be configured in gui.py for connectivity.`  
   `$ python3 table.py #Modify parameters before executing.`     
 
+## Web  
+1. Modify parameters in web/database.php file before copying the web folder  
+2. Copy the web folder to the Web Server DocumentRoot  
+3. Query APP visible in Web Server, for example: http://IP:port/web/index.php  
+
 ## Execute:  
   `$ python3 gui.py`  
