@@ -40,7 +40,7 @@
   `$ mysql -uroot -p`  
 
 3. Create database:  
-  `$ cd create-database`  
+  `$ cd createDatabase`  
   `$ python3 Database.py #Modify parameters before executing. This parameters will be configured in gui.py for connectivity.`  
   `$ python3 table.py #Modify parameters before executing.`     
 
